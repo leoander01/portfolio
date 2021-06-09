@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bar = ({ value: { icon, name, level } }) => {
+const Bar = ({ value: { name, level } }) => {
     const bar_width = `${level}%`;
 
     return (
@@ -9,7 +9,8 @@ const Bar = ({ value: { icon, name, level } }) => {
                 'width': bar_width
             }}>
                 <span className="bar__name">
-                    <img src={icon} alt="icon" className="bar__icon mr-2" />{name}
+                    {/* <img src={icon} alt="icon" className="bar__icon mr-2" />{name} */}
+                    {name}
                 </span>
             </div>
         </div>

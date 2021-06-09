@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(to right bottom,#a1ffce, #faffd1);
+    background-image: linear-gradient(to right bottom,#3a7bd5 , #00d2ff);
+    /* background-image: linear-gradient(to right bottom,#a1ffce , #faffd1); */
     background-attachment: fixed;
     color: #353538;
 }
@@ -11,7 +12,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right bottom,#a1ffce, #faffd1);
+    background-image: linear-gradient(to right bottom,#3a7bd5, #00d2ff);
 }
 
 a {
@@ -69,7 +70,7 @@ a:hover {
 }
 
 .sidebar__name > span {
-    color: #a1ffce;
+    color: #3a7bd5;
 }
 
 .sidebar__item {
@@ -92,7 +93,7 @@ a:hover {
 }
 
 .sidebar__email {
-    background-image: linear-gradient(to right bottom,#a1ffce, #faffd1);
+    background-image: linear-gradient(to right bottom,#3a7bd5, #00d2ff);
     border-radius: 30px;
     color: #000;
     margin: 15px 25px 0;
@@ -101,7 +102,7 @@ a:hover {
 }
 
 .sidebar__email > a {
-    color: #000;
+    color: #fff;
 }
 
 .sidebar__email:hover {
@@ -128,7 +129,7 @@ a:hover {
     font-size: 2rem;
     font-weight: 700;
     color: #354358;
-    border-bottom: 4px solid #a1ffce;
+    border-bottom: 4px solid #3a7bd5;
 }
 
 .navbar__item {
@@ -140,7 +141,7 @@ a:hover {
 }
 
 .navbar__item:hover {
-    background: -webkit-linear-gradient(#a1ffce, #faffd1);
+    background: -webkit-linear-gradient(#3a7bd5, #00d2ff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -238,10 +239,10 @@ a:hover {
 }
 
 .bar__wrapper {
-    background-image: linear-gradient(90deg, #a1ffce, #faffd1);
+    background-image: linear-gradient(90deg, #3a7bd5, #00d2ff);
     border-radius: 20px;
     padding: 4px 14px;
-    color: #354538;
+    color: #fff;
     font-size: 0.9rem;
 }
 
@@ -263,7 +264,7 @@ a:hover {
     width: 100%;
     height: 80%;
     border-radius: 30px;
-    border: 1px solid #00f260;
+    border: 3px solid #00d2ff;
     transition: transform 0.3s linear;
 }
 

@@ -10,12 +10,12 @@ const languages = [
     {
         icon: react,
         name: 'JavaScript',
-        level: '80'
+        level: '50'
     },
     {
         icon: react,
         name: 'React',
-        level: '50'
+        level: '35'
     },
     {
         icon: react,
@@ -25,7 +25,7 @@ const languages = [
     {
         icon: react,
         name: 'Bootstrap',
-        level: '90'
+        level: '70'
     },
 ];
 
@@ -33,12 +33,12 @@ const tools = [
     {
         icon: react,
         name: 'Figma',
-        level: '70',
+        level: '60',
     },
     {
         icon: react,
         name: 'Photoshop',
-        level: '50',
+        level: '30',
     },
     {
         icon: react,

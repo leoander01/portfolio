@@ -1,10 +1,12 @@
 import React from 'react';
 
-import facebook from '../assets/icons/facebook.svg';
+// import facebook from '../assets/icons/facebook.svg';
 import instagram from '../assets/icons/instagram.svg';
 import github from '../assets/icons/github.svg';
 import pin from '../assets/icons/pin.svg';
-import tie from '../assets/icons/tie.svg';
+// import tie from '../assets/icons/tie.svg';
+import curriculo from '../assets/icons/curriculo.svg';
+import linkedin from '../assets/icons/linkedin.svg';
 import mightycoder from '../assets/mightycoder.svg';
 import resume from '../assets/curriculo-leoander-neves.pdf';
 
@@ -36,24 +38,24 @@ const Sidebar = () => {
 
             <a href={resume} download="curriculo-leoander-neves.pdf">
                 <div className="sidebar__item sidebar__resume">
-                    <img src={tie} alt="curriculo" className="sidebar__icon" /> Download CV
+                    <img src={curriculo} alt="curriculo" className="sidebar__icon" /> Download CV
                 </div>
             </a>
 
             <figure className="sidebar__social-icons">
-                <a href="#"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
-                <a href="https://www.instagram.com/leoanderneves/" target="_blank"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
+                <a href="https://www.linkedin.com/in/leoander-neves-326106186/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="sidebar__icon mr-3" /></a>
+                <a href="https://www.instagram.com/leoanderneves/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" className="sidebar__icon mt-1" /></a>
             </figure>
 
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href="https://github.com/leoander01" target="_blank"><img src={github} alt="github" className="sidebar__icon mr-3" />Github</a>
+                    <a href="https://github.com/leoander01" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="sidebar__icon mr-3 mb-1" />Github</a>
                 </div>
                 <div className="sidebar__location">
-                    <img src={pin} alt="location" className="sidebar__icon mr-3" />
+                    <img src={pin} alt="location" className="sidebar__icon mr-2" />
                     Goiás, Brasil
                 </div>
-                <div className="sidebar__item">leoanderneves8@outlook.com</div>
+                <div className="sidebar__item mt-3">leoanderneves8@outlook.com</div>
                 {/* <div className="sidebar__item">leoanderneves8@outlook.com</div> */}
             </div>
             <div className="sidebar__item sidebar__email">

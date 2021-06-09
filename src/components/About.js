@@ -9,8 +9,6 @@ import puzzle from '../assets/icons/puzzle.svg';
 
 import Skillcard from './Skillcard';
 
-import { motion } from 'framer-motion';
-
 const skills = [
     {
         icon: computer,
