@@ -5,7 +5,7 @@ import backend from '../assets/icons/backend.svg';
 import algo from '../assets/icons/algo.svg';
 import computer from '../assets/icons/computer.svg';
 // import repair from '../assets/icons/repair.svg';
-import puzzle from '../assets/icons/puzzle.svg';
+import ux from '../assets/icons/ux.svg';
 
 import Skillcard from './Skillcard';
 
@@ -31,7 +31,7 @@ const skills = [
         about: "Um solucionador de problemas diários na Unimed RSG"
     },
     {
-        icon: puzzle,
+        icon: ux,
         title: "UI/UX Designer",
         about: "Designer de interface de usuário minimalista usando o figma"
     },
