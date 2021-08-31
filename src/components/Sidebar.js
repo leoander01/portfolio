@@ -8,7 +8,7 @@ import pin from '../assets/icons/pin.svg';
 import curriculo from '../assets/icons/curriculo.svg';
 import linkedin from '../assets/icons/linkedin.svg';
 import mightycoder from '../assets/mightycoder.svg';
-import resume from '../assets/curriculo-leoander-neves.pdf';
+import resume from '../assets/Leoander-Aparecido-Coelho-Neves.docx';
 
 import { motion } from 'framer-motion';
 
@@ -36,7 +36,7 @@ const Sidebar = () => {
             <div className="sidebar__name">Leoander <span>Neves</span> </div>
             <div className="sidebar__item sidebar__title">Web Developer</div>
 
-            <a href={resume} download="curriculo-leoander-neves.pdf">
+            <a href={resume} download="Leoander-Aparecido-Coelho-Neves.docx">
                 <div className="sidebar__item sidebar__resume">
                     <img src={curriculo} alt="curriculo" className="sidebar__icon" /> Download CV
                 </div>
